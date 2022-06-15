@@ -64,8 +64,7 @@ function App() {
     
   return (
     <div>
-      hii
-      {/* <Navbar />
+      <Navbar />
       
       <Router>
         <Routes>
@@ -92,7 +91,7 @@ function App() {
 
         <Route path='*' element={<h1 style={{textAlign:"center",marginTop:"20%"}}>404 -Page not Found</h1>} />
         </Routes>
-      </Router> */}
+      </Router>
     </div>
   )
 }
