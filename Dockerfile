@@ -11,5 +11,5 @@ RUN npm i --force
 # add app
 COPY . ./
 # CMD ["sh", "-c", "ls;rm -r src node_modules webpack;rm Dockerfile package-locak.json package.json tsconfig.json;ls"]
-CMD ["sh", "-c", "npm run build;cd build;npx serve"]
+CMD ["sh", "-c", "ls;npm run build;ls;cd build;ls;npx serve"]
 # start app
