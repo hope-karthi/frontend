@@ -127,7 +127,7 @@ const Feed = (fromHome) => {
 
 
   const map_markers = () => {
-    if (marker_values === []) { null }
+    if (marker_values === []) { return null }
     else {
       return (<>
         {
@@ -144,10 +144,6 @@ const Feed = (fromHome) => {
   const rateSliderHandle = (event, newValue, activeThumb) => { range_set(newValue, activeThumb, rate_length, setRate_length) };
   // ########################################################################################
 
-  console.warn(studio);
-  console.warn(BHK2);
-  console.warn(BHK3);
-  console.warn(BHK4);
 
 
 
